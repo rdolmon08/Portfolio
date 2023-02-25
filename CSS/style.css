@@ -1,16 +1,3 @@
-body {
-    background-color:#008B8B;  
-    font-family: Georgia;
-}
-
-h1 {
-    color: white; 
-}
-
-button {
-    padding: 20px; 
-}
-
 #navbar {
     position: fixed;
 }
@@ -18,3 +5,56 @@ button {
 #navbar li {
     display: inline;
 }
+
+
+.welcome-section {
+    font-family: georgia;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  }
+  
+  .about {
+    font-family: georgia;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50vh;
+    background-color: #CD5C5C;
+  }
+  
+  .projects {
+    font-family: georgia;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50vh;
+    background-color: #ADD8E6;
+  }
+  
+  .contact {
+    font-family: georgia;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50vh;
+    background-color: #D3D3D3;
+  }
+  
+  h1 {
+    font-family: georgia;
+    font-size: 6rem;
+    color: white;
+  }
+  
+  h2 {
+    font-family: georgia;
+    font-size: 1.5rem;
+    font-style: italic;
+    color: white;
+  }
