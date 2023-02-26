@@ -8,6 +8,18 @@
     display: inline;
 }
 
+#about-header {
+  padding: 40px; 
+}
+
+#where-header {
+  padding: 40px; 
+}
+
+#projects-header {
+  padding: 40px; 
+}
+
 
 .welcome-section {
     font-family: georgia;
@@ -49,6 +61,7 @@
   }
   
   .contact {
+    padding: 40px;
     font-family: georgia;
     display: flex;
     flex-direction: column;
