@@ -9,17 +9,54 @@
 }
 
 
-body {
+.welcome-section {
     font-family: georgia;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-color: #000;
     background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
   }
+
+  .about {
+    font-family: georgia;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: #CD5C5C;
+  }
+  
+  .projects {
+    font-family: georgia;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: #ADD8E6;
+  }
+
+  .where {
+    font-family: georgia;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: #20B2AA;
+  }
+  
+  .contact {
+    font-family: georgia;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: #D3D3D3;
+  }
+
   
   h1 {
     font-family: georgia;
