@@ -1,1 +1,2 @@
-alert("Thank you for contacting me!");
+
+alert("thank you!")
