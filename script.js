@@ -204,8 +204,10 @@ const generateQuote = function() {
 {
        "quote":"The only way to do great work is to love what you do.","author":"Steve Jobs"},
 {
-       "quote":"If you can dream it, you can achieve it.","author":"Zig Ziglar"}
+       "quote":"If you can dream it, you can achieve it.","author":"Zig Ziglar"} 
 ];
+
+console.log(generateQuote); 
 
     let arrayIndex = Math.floor(Math.random() * text.length);
     document.getElementById("text").innerHTML = text[arrayIndex].quote;
