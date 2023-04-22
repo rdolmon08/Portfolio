@@ -45,11 +45,22 @@
 }
 
 #where-header {
-  padding: 40px; 
+  height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #projects-header {
   padding: 40px; 
+}
+
+#where-to-find {
+  height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 
 
