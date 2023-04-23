@@ -40,20 +40,35 @@
 
 
 
-#about-header, #about-section {
-  padding: 40px; 
-}
-
-#where-header {
-  height: 10em;
+#about-header {
+  height: 5em;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 30px;
+}
+
+#about-section {
+  padding: 40px;
+}
+
+
+#where-header {
+  height: 5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
 }
 
 #projects-header {
-  padding: 40px; 
+  height: 5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
 }
+
 
 #where-to-find {
   height: 10em;
