@@ -218,3 +218,20 @@ window.onload = function() {
     generateQuote();
     document.getElementById("new-quote").addEventListener('click', generateQuote);
 }
+
+function displayTime(){
+       const date = new Date();
+       const h = date.getHours(); 
+       const m = date.getMinutes(); 
+       const s = date.getSeconds(); 
+    
+       
+       const time = h + ":" + m + ":" + s + " "; 
+       document.getElementById("ClockDisplay").innerText = time;
+       document.getElementById("ClockDisplay").textContent = time;
+       
+       setTimeout(displayTime, 1000);
+       
+   }
+   
+   displayTime();

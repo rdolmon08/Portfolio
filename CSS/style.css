@@ -55,6 +55,13 @@
   justify-content: center;
 }
 
+#time-clock {
+  height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 #where-header {
   height: 5em;
