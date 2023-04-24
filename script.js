@@ -221,17 +221,36 @@ window.onload = function() {
 
 function displayTime(){
        const date = new Date();
+   
        const h = date.getHours(); 
        const m = date.getMinutes(); 
        const s = date.getSeconds(); 
-    
+       
        
        const time = h + ":" + m + ":" + s + " "; 
        document.getElementById("ClockDisplay").innerText = time;
        document.getElementById("ClockDisplay").textContent = time;
+     
+     
        
        setTimeout(displayTime, 1000);
        
    }
    
    displayTime();
+   
+   function displayYear() {
+     const date = new Date();
+    
+     const y = date.getFullYear();
+     const m = date.getMonth();
+     const d = date.getDate();
+   
+     
+     const year = m + "/" + d + "/" + y;
+     document.getElementById("Year").innerText = year;
+     document.getElementById("Year").textContent = year;
+     
+   }
+   
+   displayYear(); 

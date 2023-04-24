@@ -55,8 +55,15 @@
   justify-content: center;
 }
 
-#time-clock {
-  height: 10em;
+#date {
+  height: 5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#time {
+  height: 5em;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -190,3 +197,5 @@
   .button {
     font-family: Georgia;
   }
+
+
