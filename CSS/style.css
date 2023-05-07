@@ -85,6 +85,13 @@
   justify-content: center;
 }
 
+#clock-header {
+  height: 5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 #where-header {
   height: 5em;
@@ -226,3 +233,17 @@
       margin-right: auto;
       text-align: left;
   }
+
+  .clock-header {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  }
+
+  .date {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  }
+
+  .clock {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  }
+
+
